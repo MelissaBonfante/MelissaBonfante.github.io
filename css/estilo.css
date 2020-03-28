@@ -109,10 +109,12 @@ main section#caja-principal article:nth-child(2) div#caja-info {
   padding: 5% 10% 8% 10%;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 main section#caja-principal article:nth-child(2) div#caja-info div.caja-texto {
+  margin: 10px 0;
   position: relative;
 }
 
